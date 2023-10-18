@@ -1,0 +1,11 @@
+- Le tri à bulles est considéré comme très lent. Pourquoi ?
+
+    Car il considère les valeurs à trié une à une et doit donc se repéter 
+    autant de fois qu'il y a de valeurs dans la liste.
+
+- Peut-on avoir une idée du temps nécessaire à son exécution, estimer 
+son ordre de grandeur ?
+
+    Plus le nombres de valeurs à trier est important, plus l'algorithme prendra
+    du temps à s'exécuter de façon exponentielle car l'algorithme ne prend pas 
+    en compte les valeurs déjà trier.
